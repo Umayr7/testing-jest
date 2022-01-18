@@ -1,0 +1,14 @@
+tags:
+- name: "Celebrity"
+  description: Celebrity Managing api
+paths: 
+  /celebrity/all:
+    get:
+      tags: 
+        - "Celebrity"
+      description:  Get a list of all the celebrity
+      responses:
+        '200':
+          description:  celebrity Found
+        '400':
+          description: No celebrity Found 
